@@ -21,12 +21,12 @@
   Requirements
 
   - macOS (Apple Silicon).
-  - One provider key for chat (OpenAI or Google Gemini).
+  - You need either an OpenAI API Key or Google Gemini API Key.
   - Optional: Google API Key + Custom Search Engine ID for web search.
 
   Install
 
-  - Download the DMG from Assets and drag ADA to Applications.
+  - Download the DMG from Release/Assets and drag ADA to Applications.
   - Open ADA and add your API keys in Settings.
   - First launch may take up to a minute while components warm up.
 
@@ -36,9 +36,16 @@
 
   Troubleshooting
 
+  - At first launch, MacOS Gatekeeper might block the app.
+    <img width="372" height="392" alt="Screenshot 2025-12-22 at 11 24 25 AM" src="https://github.com/user-attachments/assets/56a20ca8-c309-485c-937e-c0f36f23ea7c" />
+
+    If this window pops up, click `Cancel`, then open Terminal, then copy and paste this:
+
+    `xattr -dr com.apple.quarantine "/Applications/ADA.app"`
+
+    Then try to launch it again.
+
   - Slow first start: allow up to 60 seconds on initial launch.
   - Voice chat not connecting: confirm your API keys in Settings and microphone permission is granted.
   - Still stuck? Quit ADA, reopen, and try again after confirming your keys.
-  - If Gatekeeper is flagging the app and it says it's damaged when you run the app, do this in terminal:
-
-    xattr -dr com.apple.quarantine "/Applications/ADA.app"
+  
