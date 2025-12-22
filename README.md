@@ -1,15 +1,15 @@
 # ADA-Electron
   Overview
-  Local real‑time voice assistant with camera, chat widget, and a document reader (EPUB/PDF/TXT/DOCX). Uses local STT/TTS (Moonshine + Kokoro) and OpenAI or Gemini for LLM. Embeddings/ChromaDB have been
-  removed; the library uses a fast keyword search by default.
-
+  Local real‑time voice assistant with camera, chat widget, and a document reader (EPUB/PDF/TXT/DOCX). Uses local STT/TTS (Moonshine + Kokoro) and OpenAI or Gemini for LLM. 
+  
   Highlights
 
   - Conversational Assistant: Voice or text chat with a responsive avatar.
-  - Ask Your Documents: Import EPUB/PDF/DOCX/TXT and ask questions about them.
-  - Read Aloud: Natural text‑to‑speech with on‑screen captions.
-  - Smart Resume: Remembers where you left off in a document.
-  - Clean UI: Distraction‑free chat and document views.
+  - Perform web search: e.g. ask about the weather, directions, latest news.
+  - Conversation history: Restore old conversations and continue where you left of.
+  - Vision queries: Turn on the camera and ask what the avatar sees.
+  - Book Reader: Import EPUB/PDF/DOCX/TXT, listen with natural captions, search quickly, and resume exactly where you left off.
+  - Ask about your documents: e.g. summarize a chapter in the book.
 
   Powered By
 
@@ -39,3 +39,6 @@
   - Slow first start: allow up to 60 seconds on initial launch.
   - Voice chat not connecting: confirm your API keys in Settings and microphone permission is granted.
   - Still stuck? Quit ADA, reopen, and try again after confirming your keys.
+  - If Gatekeeper is flagging the app and it says it's damaged when you run the app, do this in terminal:
+
+    xattr -dr com.apple.quarantine "/Applications/ADA.app"
