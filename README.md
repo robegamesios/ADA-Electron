@@ -1,6 +1,7 @@
 # ADA-Electron
- Overview
-  Local real‑time voice assistant with camera, chat widget, and a document reader (EPUB/PDF/TXT/DOCX). Uses local STT/TTS (Moonshine + Kokoro) and OpenAI for LLM. Embeddings/ChromaDB have been removed; the library uses a fast keyword search by default.
+  Overview
+  Local real‑time voice assistant with camera, chat widget, and a document reader (EPUB/PDF/TXT/DOCX). Uses local STT/TTS (Moonshine + Kokoro) and OpenAI or Gemini for LLM. Embeddings/ChromaDB have been
+  removed; the library uses a fast keyword search by default.
 
   Highlights
 
@@ -9,6 +10,13 @@
   - Read Aloud: Natural text‑to‑speech with on‑screen captions.
   - Smart Resume: Remembers where you left off in a document.
   - Clean UI: Distraction‑free chat and document views.
+
+  Powered By
+
+  - Avatar: TalkingHead by met4citizen — https://github.com/met4citizen/TalkingHead
+  - Real‑time pipeline: Pipecat — https://github.com/pipecat-ai/pipecat
+  - Text‑to‑Speech: KokoroTTS (ONNX)
+  - Speech‑to‑Text: Moonshine (ONNX)
 
   Requirements
 
