@@ -17,7 +17,8 @@
   ### Features
 
   - Voice Interaction
-      - Natural speech recognition (mic), realistic lip‑sync TTS, “Hey ADA” wake word
+      - 2 Avatars to choose (ADA or ALAN) in Settings. Defaults to ADA.
+      - Natural speech recognition (mic), realistic lip‑sync TTS, “Hey ADA” or "hey ALAN" wake word
       - Auto‑mute after 60s of silence; type in chat anytime
   - Document Intelligence
       - Formats: EPUB, PDF, DOCX, TXT
