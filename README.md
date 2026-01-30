@@ -3,7 +3,7 @@
   An on‑device, voice‑first AI assistant with a 3D avatar. ADA reads your documents, answers questions, fetches weather and directions, searches the web, and holds natural conversations — all in a clean,
   focused UI.
 
-  ADA Demo (https://via.placeholder.com/800x400/4285F4/ffffff?text=A.D.A.+Advanced+Digital+Assistant)
+  Youtube Video: https://youtu.be/IXWrxlnylsA?si=cD2n5kcS9doidNfX
 
   ### Highlights
 
